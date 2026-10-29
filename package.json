@@ -1,0 +1,1 @@
+{"name":"vila-natalina-papai-noel","private":true,"type":"module","scripts":{"dev":"node serve.mjs","start":"node serve.mjs"}}

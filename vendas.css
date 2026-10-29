@@ -1,0 +1,10 @@
+.sale-toast{position:fixed;left:12px;bottom:12px;z-index:50;width:280px;max-width:calc(100vw - 24px);padding:13px 14px;box-sizing:border-box;display:flex;align-items:center;gap:11px;background:#fff;border:1px solid #eee3d2;border-radius:13px;box-shadow:0 5px 22px #17382e18;pointer-events:none;opacity:0;transform:translateY(10px);transition:opacity .18s ease,transform .18s ease;font-family:Arial,sans-serif}
+.sale-toast.is-visible{opacity:1;transform:translateY(0)}
+.sale-toast-icon{width:33px;height:38px;flex-shrink:0;display:grid;place-items:center;background:#b68a4310;border-radius:9px;color:#b68a43}
+.sale-toast-icon svg{width:23px;height:26px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.sale-toast-copy{min-width:0;display:grid;gap:5px}
+.sale-toast-copy strong{color:#17382e;font-size:13px;line-height:1.35;font-weight:600;overflow-wrap:anywhere}
+.sale-toast-status{font-size:11px;line-height:1.35;color:#34723c}
+.sale-toast[hidden]{display:none}
+@media(prefers-reduced-motion:reduce){.sale-toast{transition:none;transform:none}}
+.sale-toast-simulation{font-size:10px;line-height:1.2;color:#806434;font-weight:700;letter-spacing:.4px}
